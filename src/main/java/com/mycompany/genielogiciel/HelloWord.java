@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.genielogiciel;
 
 /**
@@ -10,5 +5,16 @@ package com.mycompany.genielogiciel;
  * @author PapiBadr
  */
 public class HelloWord {
+    
+    public String getMessage(String name) {
+        if(name != null && !name.isEmpty()){
+            return "Hello "+name+"!";
+        } else {
+            return "Hello World !";
+        }
+    }
+    public int sum(int a, int b) {
+        return a + b;
+    }
     
 }
